@@ -185,7 +185,7 @@ export default function LandingPage() {
 									className="relative overflow-hidden bg-gradient-to-r from-[#5eead4] to-[#8b5cf6] text-white border-none rounded-full px-8 py-6 font-medium transition-all duration-300 hover:shadow-[0_0_20px_rgba(94,234,212,0.6)] group"
 									onClick={() =>
 										(window.location.href =
-											"https://monopoly-frontend-git-main-badukweis-projects.vercel.app/")
+											"https://dolphin-protocol.github.io/Autonomous-World/")
 									}
 								>
 									<span className="relative z-10">
@@ -562,17 +562,15 @@ export default function LandingPage() {
 						</p>
 
 						<div className="flex flex-wrap justify-center gap-4">
-							{["Coming Soon"].map(
-								(platform) => (
-									<Button
-										key={platform}
-										variant="outline"
-										className="relative overflow-hidden border-[#5eead4] text-[#5eead4] rounded-full px-6 py-2 font-medium transition-all duration-300 hover:bg-[rgba(94,234,212,0.1)] hover:shadow-[0_0_15px_rgba(94,234,212,0.3)]"
-									>
-										{platform}
-									</Button>
-								)
-							)}
+							{["Coming Soon"].map((platform) => (
+								<Button
+									key={platform}
+									variant="outline"
+									className="relative overflow-hidden border-[#5eead4] text-[#5eead4] rounded-full px-6 py-2 font-medium transition-all duration-300 hover:bg-[rgba(94,234,212,0.1)] hover:shadow-[0_0_15px_rgba(94,234,212,0.3)]"
+								>
+									{platform}
+								</Button>
+							))}
 						</div>
 					</div>
 
